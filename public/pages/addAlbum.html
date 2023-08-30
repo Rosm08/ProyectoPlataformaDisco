@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleIndex.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/1689641173.ico">
+    <title>Add Album</title>
+</head>
+ 
+</head>
+<body>
+    <div class="sidebar">
+        <header>
+            <img id="userIcon" src="../img/5c751b8b4da9830865a448f2.png" alt=""> 
+            user09876
+        </header>
+
+        <ul>
+            <li><a href="home.html">Other Albums</a></li>
+            <li><a href="editForm.html">Edit Album <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+              </svg></a></li>
+            <li><a href="addSong.html">Add Songs <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
+                <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
+                <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
+              </svg></a></li>
+            <li><a href="login.html">Log Out <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+  <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+</svg>  </a></li>
+        </ul>
+    </div>
+   
+    <section>
+     <h1>Add Album</h1>
+         <br>
+       <form action="" method="post"></form>
+           <div class="formsAlbumSong">
+
+               <div class="items-form">
+                <label for="tituloAlbum"> Title </label>
+                <input type="text" name="tittleAlbum" id="tituloAlbum" placeholder="ingrese el titulo de la banda">
+               </div>
+   
+              <div class="items-form">
+               <label for="añoLanzamiento">Year of Release</label>
+               <input type="datetime" name="lanzamiento" id="añoLanzamiento" placeholder="d/m/a" >
+              </div>
+   
+              <div class="items-form">
+              <label for="descripcion">Description</label>
+              <textarea name="descrip" id="descripcion" cols="30" rows="10" placeholder="describa el album"></textarea>
+              </div>
+   
+             <div class="items-form">
+                <label for="linkImg">Add an image(URL)</label>
+                <input type="url" name="imagenAlbum" id="linkImg" placeholder="ingrese la URL de la img">
+             </div>
+              
+             <div id="btn-Add-A"> <button type="submit">Add Album</button></div>
+          </div>
+       </form>
+   
+    </section>
+
+</body>
+</html>
