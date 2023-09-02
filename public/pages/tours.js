@@ -34,6 +34,7 @@ let buttons = document.querySelectorAll("button")
 
 console.log(buttons);
 if(edadUsuario>=18){
+  
   function getTickets( ciudad ,tickets = ticket){
  
     for (const ciu in tickets){

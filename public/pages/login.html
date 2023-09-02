@@ -16,14 +16,16 @@
             <div class="item">
              <label for="#emailUsuario" >Email:</label> <br>
              <input type="email" name="mail" id="emailUsuario"  placeholder="Ingrese su Email" required>
+              <h5></h5>
             </div>
             <div class="item">
                 
              <label for="#contraseñaUsuario">Contraseña:</label><br>
              <input type="password" name="mail" id="contraseñaUsuario" placeholder="Ingrese su Contraseña" required>
+              <h4></h4>
             </div>
             <div class="item">
-             <input class="button" type="button" value="ingresar">
+             <input class="ingresar" onclick="validar()" type="button" value="ingresar">
            </div>
             <hr>
 
@@ -35,5 +37,7 @@
 
 
     </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="login.js"></script>
   </body> 
 </html>

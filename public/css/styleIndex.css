@@ -383,3 +383,52 @@ span{
   width: max-content;
   margin: 2px auto;
 }
+.containerAlbums{
+  margin: 0 auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+   );
+  gap: 80px
+ 
+ 
+}
+.albums{
+ width: max-content; 
+ 
+}
+.albums > a > img{
+  width: 200px;
+  height: 200px;
+}
+.albums > a > h4{
+  width: max-content;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: black;
+}
+.albums > h5{
+background-color: rgba(255, 255, 255, 0.556);
+width: max-content;
+text-align:left ;
+margin-left: 0
+}
+
+.bi-bi-star-fill{
+   color: yellow;
+}
+.error_password{
+  border-color: red;
+
+}
+.error_text-password{
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
